@@ -1,0 +1,2791 @@
+/**
+ * Practice-It! main style sheet
+ */
+
+#aboutpracticeit {
+	clear: both;
+	margin-top: 3em;
+}
+
+#adblockoverlay {
+	background-color: #eeeeff;
+	color: #666;
+	height: 100%;
+	left: 0;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 3em;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	width: 60%;
+	z-index: 99999;
+}
+
+#allkeywords {
+	margin-bottom: 1em;
+	margin-top: 2em;
+	padding-left: 1em;
+	padding-right: 2em;
+}
+
+#allkeywords h3 {
+	margin-bottom: 0em;
+}
+
+#allkeywords span {
+	float: left;
+	margin-left: 1em;
+}
+
+.allstudentssolved {
+	color: #006600;
+}
+
+.allstudentssolvednot {
+	color: #660000;
+}
+
+.announcement {
+	background-color: #efe;
+	border: 1px dashed green;
+	/*margin: 1em auto;*/
+	margin: 1em 1em;
+	max-width: 60em;
+	padding-left: 2em;
+	padding-right: 2em;
+	/*text-align: center;*/
+	width: 70%;
+}
+
+.assertionpoint {
+	font-weight: bold;
+	color: #404;
+}
+
+.attemptrow {
+	color: #660000;
+}
+
+.successrow {
+	color: #003300;
+}
+
+.attemptstip {
+	color: #555;
+	font-size: 7.5pt;
+}
+
+#author, #keywords, #solvedstatusarea, #solvedcount, #facebooklogin, .predescriptionrow {
+	font-size: 9pt;
+	font-weight: normal;
+	overflow: hidden;
+	padding-left: 1em;
+}
+
+#backtomain {
+	text-align: right;
+	margin-top: 5em;
+}
+
+body h1 {
+	margin-bottom: 0em;
+	margin-top: 0em;
+	/*text-align: center;*/
+}
+
+body > h2 {
+	/*text-align: center;*/
+}
+
+#bookimagelink {
+	float: right;
+	margin-left: 1.5em;
+	margin-bottom: 1em;
+}
+
+#bottomarea {
+	/*margin-left: auto;
+	margin-right: auto;*/
+	margin-top: 8em;
+	/* max-width: 40em; */
+	/*text-align: center;*/
+	width: 100%;
+}
+
+.breadcrumbs {
+	font-size: 12pt;
+	margin-bottom: 2em;
+	margin-top: 0em;
+}
+
+.buttonlink {
+	background-color: #CCC;
+	border: 2px solid gray;
+	border-left: 2px solid #DDD;
+	border-top: 2px solid #DDD;
+	color: #446;
+	font-size: 11pt;
+	font-weight: normal;
+	margin-right: 0.2em;
+	padding: 0.25em 0.5em;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+/* rounded corners on several elements */
+.buttonlink,
+#mainoptions a,
+.mainoptions a,
+#userinfoarea,
+.timedquizsetup,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	background-color: #CCC;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color: #446;
+	font-size: 11pt;
+	font-weight: normal;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	text-decoration: none;
+}
+
+.buttonlink:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+	text-decoration: none;
+	/* background-color: #DDDDCC; */
+	background-color: #DDD !important;
+	border: 2px solid #AAAABB;
+	border-left: 2px solid #EEEEDD;
+	border-top: 2px solid #EEEEDD;
+	cursor: pointer;
+}
+
+.buttonlink img, .buttonlinksmall img, .buttonlink img.icon, .buttonlinksmall img.icon {
+	/*vertical-align: middle;*/
+	vertical-align: text-bottom;
+}
+
+.buttonlinksmall {
+	font-size: 9pt;
+	padding: 0.1em 0.5em;
+}
+
+.captchaarea {
+	max-width: 30em;
+	overflow: hidden;
+}
+
+.captchaimage {
+	float: left;
+	margin-right: 1em;
+	max-width: 100px;
+}
+
+#categories {
+	padding-bottom: 1em;
+	padding-left: 1em;
+}
+
+#categories a {
+	text-decoration: none;
+}
+
+#categories a:hover {
+	text-decoration: underline;
+}
+
+#categories ul {
+	border-left: thin dotted #bbb;
+	list-style-type: none;
+	margin-left: 1em;
+	margin-top: 0em;
+	padding-left: 1em;
+	padding-top: 0em;
+}
+
+#categories h3, #categories h4 {
+	margin: 0em;
+	margin-top: 0.25em;
+}
+
+#categories h3 {
+	margin-top: 0.75em;
+}
+
+#categories h4 {
+	margin-left: 0.5em;
+}
+
+#categories ul li {
+	margin-bottom: 0.25em;
+}
+
+#categories > li {
+	margin-bottom: 0.75em;
+}
+
+.categorycomment {
+	font-size: smaller;
+	font-style: italic;
+	padding-top: 0.5em;
+	margin-bottom: 1em !important;
+	margin-left: 1em;
+	margin-right: 2em;
+}
+
+.categoryli {
+	clear: right;
+}
+
+.categorytoplevel {
+	font-size: 120%;
+	margin-top: 0.5em !important;
+	text-decoration: underline;
+}
+
+.categorytoplevel a {
+	color: black !important;
+}
+
+#centralarea * {
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+
+#centralarea > h2, #centralarea > h3 {
+	/*text-align: center;*/
+}
+
+.changeuserinfolink {
+	margin-left: 1em;
+}
+
+#clarification {
+	font-style: italic;
+}
+
+.closedcourse td {
+	background-color: #eee;
+	color: #666;
+}
+
+.closedcourse td.lastcolumn {
+	background-color: transparent;
+	color: black;
+}
+
+.closelink {
+	background-image: url(images/close.gif);
+	background-position: top right;
+	background-repeat: no-repeat;
+	float: right;
+	height: 15px;
+	width: 15px;
+}
+
+.CodeMirror {
+	border: 1px solid #CCC;
+	border-radius: 2px;
+}
+
+.collapsedcode {
+	background-image: url(images/dotdotdot.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	height: 1em;
+}
+
+.collapsedcode, .uncollapsedcode, .codewidener, .codeheightener {
+	line-height: 1em;
+	padding-top: 2px;
+}
+
+.collapsedcode, .uncollapsedcode, .codewidener {
+	padding-right: 2em;
+}
+
+.collapsedcode, .codewidener {
+	max-width: 12em;
+	overflow: hidden;
+	width: 12em;
+}
+
+.codewidener {
+	height: 0.0001em;
+	visibility: hidden;
+}
+
+.codeheightener {
+	width: 0.0001em;
+	visibility: hidden;
+}
+
+.collapsedcode:hover {
+	/*
+	background-color: white;
+	background-image: none;
+	overflow: visible;
+	padding-right: 2em;
+	position: absolute;
+	max-width: inherit;
+	width: inherit;
+	height: inherit;
+	*/
+}
+
+.collapsedcode:hover * {
+	/*
+	background-color: white;
+	*/
+}
+
+.columndivs > div {
+	clear: both;
+}
+
+.confirmationmessage {
+	color: green;
+	margin-left: 7em;
+	margin-bottom: 0.5em;
+}
+
+#controlsarea {
+	background-color: #f0f0f0;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px dotted #bbbbbb;
+	padding: 3pt 6pt;
+	position: absolute;
+	right: 0.5em;
+	/*top: 17em;*/
+	max-width: 30em;
+	z-index: 9998;
+}
+
+#controlsarea div {
+	/* margin-bottom: 0.7em; */
+}
+
+#controlsarea legend {
+	background-color: white;
+	border: 1px dotted #bbbbbb;
+}
+
+#controlsarea #soundarea {
+	margin-bottom: 0.25em;
+}
+
+#codeproblemhtml {
+	border: thin solid gray;
+	margin-top: 1em;
+	padding: 0.5em;
+}
+
+.columnname {
+	clear: left;
+	float: left;
+	font-weight: bold;
+	margin-top: 0.4em;
+	width: 8em;
+}
+
+.columnname.columnnamewide {
+	width: 12em;
+}
+
+.condensedtable, .condensedtable * {
+	font-size: 8pt;
+	vertical-align: middle;
+}
+
+.condensedtable th, .condensedtable td {
+	padding-left: 1px !important;
+	padding-right: 1px !important;
+}
+
+#copyright {
+	color: #888;
+	font-size: 8pt;
+	line-height: 1em;
+	max-width: 40em;
+}
+
+.correct {
+	background-color: #ddffdd !important;
+}
+
+td.correct, td.incorrect, td.almost {
+	background-position: 100% 0%;
+	background-repeat: no-repeat;
+}
+
+td.correct {
+	background-image: url(images/correct.gif) !important;
+}
+
+td.incorrect, td.almost {
+	background-image: url(images/incorrect.gif) !important;
+}
+
+#createproblemform div {
+	clear: left;
+	margin-top: 1.5em;
+	overflow: hidden;
+}
+
+#createproblemform label {
+	font-weight: bold;
+	float: left;
+	width: 10em;
+}
+
+.userinfosubsection {
+	margin-top: 3em;
+	width: 100%;
+}
+
+#createschoolcompleter {
+	background-color: white;
+	border: thin solid gray;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#createschoolcompleter ul {
+	list-style-type: none;
+	padding-left: 0.5em;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+}
+
+#createschoolcompleter ul li {
+	color: #777;
+}
+
+#createschoolcompleter ul li.selected {
+	background-color: #ffffaa;
+	color: black;
+}
+
+.currentpagecrumb {
+	font-size: larger;
+}
+
+#description {
+	clear: left;
+	margin-top: 1.25em;
+}
+
+/* The next two rules are because Scriptaculous's appear/disappear transition
+ * animations don't work well when the thing being hidden/shown has a margin
+ * or padding (or when its first/last children do).
+ */
+#description > :first-child {
+	margin-top: 0em;
+}
+
+#description > :last-child {
+	margin-bottom: 0em;
+}
+
+#mainoptions .description,
+.mainoptions .description {
+	padding-left: 2em;
+	padding-bottom: 1em;
+	text-align: left;
+}
+
+del.diff, ins.diff {
+	font-weight: bold;
+	text-decoration: none;
+	white-space: pre;
+}
+
+del.diff {
+	color: #880000;
+}
+
+.diffstart {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.drawingpanelarea, #testresults .drawingpanelarea {
+	padding: 5px;
+	border: 3px solid rgb(212, 208, 200);
+	margin-bottom: 0.25em;
+	margin-top: 0.25em;
+}
+
+.drawingpanelarea .drawingpanellefticon, #testresults .drawingpanelarea .drawingpanellefticon {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.drawingpanelarea .drawingpanelrighticon, #testresults .drawingpanelarea .drawingpanelrighticon {
+	float: right;
+	margin-right: 2px;
+}
+
+.drawingpanelarea .drawingpanelmouseposition, #testresults .drawingpanelarea .drawingpanelmouseposition {
+	font-size: 8pt;
+}
+
+.drawingpanelarea img, #testresults .drawingpanelarea img {
+	vertical-align: bottom;
+}
+
+.drawingpanelarea td, .drawingpanelarea th, #testresults .drawingpanelarea td, #testresults .drawingpanelarea th {
+	letter-spacing: 0.0px;
+	line-height: 12pt;
+	padding: 0em;
+	white-space: normal;
+	border-bottom: none;
+}
+
+.drawingpanelarea th, #testresults .drawingpanelarea th {
+	background-color: rgb(10, 36, 106);
+	color: white;
+	font-size: 9pt;
+	overflow: hidden;
+	padding-top: 2pt;
+	padding-bottom: 2pt;
+	text-align: left;
+}
+
+.drawingpanelarea tr, #testresults .drawingpanelarea tr {
+	background-color: rgb(212, 208, 200);
+}
+
+#dumparea {
+	font-family: monospace;
+	white-space: pre;
+}
+
+ul.compilererrors, pre.compilererrors {
+	 color: #400;
+	 font-weight: normal;
+}
+
+ul.compilererrors li {
+	margin-bottom: 1em;
+}
+
+.errorlinenumber {
+	color: #000;
+	font-weight: bold;
+}
+
+.errorfriendlydescription {
+	color: #800;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+.errordescription, .errorcode {
+	white-space: pre;
+}
+
+.extrainfo {
+	font-style: italic;
+	margin: 2em;
+}
+
+.facebookbutton {
+	background-color: #ECEEF5;
+	border: 1px solid #CAD4E7; 
+	border-radius: 3px;
+	color: #3B5998;
+	cursor: pointer;
+	font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+	font-size: 11px;
+	padding: 2px 6px 4px;
+	white-space: nowrap;
+}
+
+.facebookbutton:hover {
+	background-color: #ECEEF5 !important;
+	border-color: #9dacce; 
+	text-decoration: none !important;
+}
+	
+.facebookbutton img {
+	vertical-align: middle;
+}
+
+#facebooklogin {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.fail {
+	background-color: #FFDDDD;
+}
+
+.filelink {
+	text-decoration: none;
+}
+
+.flash {
+	/*margin-left: auto !important;
+	margin-right: auto !important;*/
+	
+	/*min-width: 34em;
+	width: 40%;*/
+}
+
+.flash.flasherror {
+	background-color: #ffddcc;
+	color: #cc0000;
+	border: 2px dotted #cc0000;
+	border-radius: 5px;
+	padding: 5px;
+	padding-left: 40px;
+	background-image: url(images/error-x.png);
+	background-position: 5px center;
+	background-repeat: no-repeat;
+}
+
+.forminputtip {
+	color: #999;
+	font-style: italic;
+}
+
+.goback {
+	text-align: right;
+	width: 75%;
+	/*margin: 1em auto;*/
+	margin: 1em 1em;
+}
+
+.helptips {
+	background-color: #FFE;
+	background-image: url("images/question-mark-yellow.gif");
+	background-repeat: no-repeat;
+	background-position: 100% 5px;
+	border: 1px solid #DD7;
+	padding: 0em 1em;
+	margin: 1.5em 3em;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.helptips p {
+	padding-right: 22px;
+}
+
+.helptips li {
+	margin-top: 0.5em;
+}
+
+#hintsarea {
+	margin-bottom: 2em;
+}
+
+#hintsarea .hint {
+	padding-top: 0.5em;
+}
+
+#htmldiff {
+	position: relative;	/* so htmldiffarea will respect it */
+}
+
+#htmldiffsliderarea {
+	/*text-align: center;*/
+}
+
+#htmldiffcontainerarea {
+	overflow: hidden;
+	position: relative;
+}
+
+#expectedhtmloutput, #actualhtmloutput {
+	border: 2px dashed gray;
+	left: 0px;
+	top: 0px;
+	/* margin: 0px;
+	padding: 0px; */
+	overflow: hidden;
+}
+
+#expectedhtmloutput > legend, #actualhtmloutput > legend {
+	background-color: white;
+	border: 2px outset gray;
+	padding: 0.25em;
+}
+	
+#actualhtmloutput {
+	background-color: white;
+	position: absolute;
+}
+
+#expectedhtmloutput > :first-child, #actualhtmloutput > :first-child {
+	margin-top: 0em;
+	padding-top: 0em;
+}
+
+#hidedescription, .hidedescription {
+	margin-left: 1em;
+	/*
+	font-size: medium;
+	padding: 1pt;
+	*/
+}
+
+/*
+.hidedescription {
+	float: right;
+	font-size: 90%;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+#hidedescription img {
+	vertical-align: baseline;
+}
+*/
+
+.hrule {
+	width: 100%;
+	margin: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	height: 2px;
+	background-color: #dddddd;
+}
+
+.incorrect {
+	background-color: #ffdddd !important;
+}
+
+.inheritancehell {
+	border-right: 1px solid gray;
+	float: left;
+	margin-right: 1em;
+	padding-right: 1em;
+}
+
+.inheritancehell > p {
+	margin-top: 0em;
+}
+
+.inheritancehelloverall {
+	clear: left;
+}
+
+ins.diff {
+	color: #008800;
+}
+
+.inputcontainer {
+	width: 100%;	
+}
+
+.inputcontainer > div {
+	margin-left: 8em;  /* should match .columnname width */
+	overflow: hidden;
+	padding-bottom: 0.1em;
+}
+
+/*.inputcontainer > div:hover {
+	background-color: #fffff0 !important;
+}*/
+
+.inputcontainer td, .inputcontainer th {
+	padding: 5px 1px 1px;
+}
+
+.inputcontainer th {
+	padding-right: 10px;
+	text-align: right;
+	width: 13em;
+}
+
+/*
+#insertsolutionhere, #htmltestresultsarea, #htmldiffcontainerarea {
+	border-bottom: 3px dashed gray;
+	border-top: 3px dashed gray;
+}
+*/
+
+.invalid {
+	background-color: #FFFFAA;
+}
+
+label {
+	white-space: nowrap;
+}
+
+input[type="submit"].largesubmit, .largesubmit {
+	color: #350;
+	font-size: larger;
+	font-weight: bold;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+
+.lastcolumn {
+	background-color: white; /* kills zebra striping */
+	border-bottom: none !important;
+	border-right: none !important;
+	border-top: none !important;
+}
+
+#likelink {
+	margin-left: 1em;
+}
+
+#linenumbers, .linenumbers {
+	border-top: 2px solid white;
+	color: #BBBBBB;
+	max-width: 2em;
+}
+
+#loading {
+	background-color: #990000;
+	color: white;
+	font-size: larger;
+	margin: 0em;
+	padding: 0.25em 0.75em;
+	position: fixed;
+	_position: absolute;	/* for shitty IE6 */
+	right: 0em;
+	top: 0em;
+	z-index: 99999;
+}
+
+#loading img {
+	vertical-align: middle;
+	width: 1em;
+	height: 1em;
+}
+
+#loadingarea {
+	background-color: white;
+	border: dotted solid #f8f8f8;
+	margin-left: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	opacity: 0.85;
+}
+
+#loginadvert {
+	color: #666;
+	font-weight: normal;
+	font-size: 11pt;
+}
+
+#loginarea fieldset {
+	border: none;
+	padding: 0em;
+}
+
+#loginarea input[type="text"] {
+	margin-bottom: 3px;
+}
+
+#loginarea legend {
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+}
+
+#loginarea .submitdiv {
+	margin-top: 0.5em;
+	margin-bottom: 2em;
+}
+
+#useractionsarea .buttonlink, #controlsarea .buttonlink {
+	min-width: 8em;
+}
+
+#useractionsarea .buttonlink, #controlsarea .buttonlink {
+	display: block;
+	margin-bottom: 0.2em;
+}
+
+#useractionsarea a {
+	text-decoration: none;
+}
+
+#logoutarea a:hover {
+	text-decoration: underline;
+}
+
+#maincenterarea {
+	width: 60%;
+	/*margin: 1em auto;*/
+	margin: 1em;
+}
+
+#maincontent div, #maincontent2 div {
+	margin-top: 0.4em;
+}
+
+.mcquestion {
+	margin-bottom: 2em;
+}
+
+.mcquestion ol {
+	list-style-type: lower-alpha;
+}
+
+.mcresultimage {
+	margin-left: 2em;
+	vertical-align: bottom;
+}
+
+.mechanicalsolutionimage {
+	vertical-align: top;
+}
+
+.mobileonly {
+	display: none;
+}
+
+td.multiplechoice {
+	padding-bottom: 2em;
+}
+
+.multiplechoice ol {
+	list-style-type: lower-alpha;
+}
+
+.myschool {
+	background-color: #ffffd8;
+	color: #004488;
+}
+.highlight .myschool {
+	background-color: inherit;
+}
+
+.nocoursesyet, .unverified, .flash {
+	background-color: #ffffcc;
+	border: 1px dotted #dddd55;
+	font-size: larger;
+	margin: 1em 0.5em;
+	padding: 0.2em;
+	/*text-align: center;*/
+}
+
+.nowrap, .nowrap * {
+	white-space: nowrap;
+}
+
+#nowsolvedmessage {
+	margin: 0em;
+	/*text-align: center;*/
+}
+
+optgroup {
+	/*margin-bottom: 0.1em;
+	margin-top: 0.8em;*/
+}
+
+.outofdate, .outofdate * {
+	background-color: #dddddd !important;
+	color: #777777 !important;
+}
+
+.pass {
+	background-color: #DDFFDD;
+}
+
+#passcountmessage {
+	font-size: larger;
+	margin-bottom: 0.5em;
+	/*text-align: center;*/
+}
+
+.placeholder, .syntaxtemplate {
+	font-family: "Verdana", sans-serif;
+	font-weight: bold;
+}
+
+pre {
+	white-space: pre !important;
+}
+
+pre.htmlcode {
+	background-color: #FFFFDD;
+	border: thin solid gray;
+	padding: 0.25em;
+}
+
+pre.input, pre.inputfile, pre.outputfile, code.inputfile, code.outputfile {
+	border: 1px solid gray;
+	padding: 2px;
+}
+
+pre.output {
+	background-color: #eee;
+	border: 1px solid #ddd;
+}
+
+#problemarea {
+	/*margin-left: 13em; auto;
+	margin-right: 13em;*/
+	position: relative;
+}
+
+.problemcount {
+	color: #666;
+	/* float: right; */
+	font-size: smaller;
+	font-weight: normal;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+
+.problemname, .problemexpected, .problemactual {
+	white-space: pre;
+}
+
+.problemresult {
+	/*text-align: center;*/
+}
+
+#problemsarea, #centralarea, #problemarea {
+	/*margin: 0em auto;*/
+	margin: 0em;
+	/*margin-right: 13em;*/
+	/*min-width: 15em;
+	max-width: 64em;*/
+	position: relative;
+}
+
+#problemsarea {
+	background-color: #e8e8e8;
+	border-top: 2px solid #d8d8d8;
+	border-left: 2px solid #d8d8d8;
+	border-bottom: 2px solid #a8a8a8;
+	border-right: 2px solid #a8a8a8;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	margin-right: 0;
+}
+
+#problemsform {
+	max-width: 100%;
+	min-width: 28em;
+	position: relative;
+}
+
+#sliderarea {
+	right: 0em;
+	position: absolute;
+	text-align: right;
+	width: 110px;
+}
+
+.sliderouterarea {
+	margin: 0em;
+	padding: 0em;
+	position: relative;
+}
+
+.sliderbgimage {
+	position: absolute;
+	left: 7px;
+	top: 0px;
+}
+
+.sliderwidgetimage {
+	position: absolute;
+	left: 7px;
+	top: 0px;
+}
+
+#solvedcountnumber, #likecountnumber {
+	font-weight: bold;
+}
+
+#solution {
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	font-size: 10pt;
+	width: 97%%;
+}
+
+#solution, #linenumbers, .linenumbers {
+	font-size: 10pt;
+	line-height: 1.05em;
+	margin: 0 2em 0 2em;
+	padding: 5px;
+}
+
+#solution, #linenumbers, .linenumbers, .solution,
+.problemname, .problemexpected, .problemactual,
+code, tt, samp, xmp, pre, input[type="text"], input[type="password"], textarea,
+.code, .errorcode, .errordescription {
+	font-family: "Consolas", "Courier New", "Andale Sans Mono", monospace;
+}
+
+.problemname, .problemexpected, .problemactual, pre, xmp {
+	letter-spacing: -0.7px;
+	line-height: 0.9em;
+}
+
+#solutionarea {
+	margin-top: 1em;
+}
+
+#solutioncell fieldset {
+	border: none;
+	margin: 0em;
+	padding: 0em;
+	/*text-align: center;*/
+}
+
+#solutionform fieldset {
+	/* position: relative; */
+}
+
+#solutionform table.expressiontable td, #solutionform table.assertiontable td {
+	padding-right: 30px;
+}
+
+#solutionform table.solutiontable {
+	clear: both;
+	width: 100%;
+}
+
+.solution {
+	display: inline;
+}
+
+.solution, .solutionhidden, .solutionhidden_nowhitespace, .ignore {
+	white-space: pre;
+}
+
+.solutionhidden, .solutionhidden_nowhitespace, .ignore {
+	display: none;
+}
+
+#solutionsubmit {
+	border-radius: 12px;
+	font-size: 17pt;
+	font-weight: bold;
+	margin-left: 1em;
+}
+
+#solutionsubmit img {
+	vertical-align: middle;
+}
+
+#solutionsubmitarea {
+	margin-top: 1em;
+	text-align: center;
+}
+
+#systemstats {
+	/* text-align: center; */
+	margin-top: 3em;
+}
+
+.tooltip, #tooltip {
+	background-color: #ffd;
+	border: thin solid #cc9;
+	border-radius: 4px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	font-weight: normal;
+	font-size: 10pt;
+	padding: 2px;
+	position: absolute;
+}
+
+#stripcomments {
+	position: absolute;
+	right: 0em;
+}
+
+#testresults {
+	border: 2px solid black;
+	border-collapse: collapse;
+	/*
+	position: absolute;
+	right: 1em;
+	top: 1em;
+	*/
+	
+	/*margin-left: auto;
+	margin-right: auto;*/
+	margin-top: 0.5em;
+}
+
+#testresults tr:hover {
+	background-color: #FFFFCC !important;
+}
+
+#testresults th {
+	background-color: #EEEEEE;
+	border: 2px solid black;
+}
+
+#testresults td, #testresults th {
+	border-bottom: 2px solid black;
+	padding: 2pt 1em;
+	white-space: nowrap;
+}
+
+#testresultsarea {
+	/* height: 500px; */
+	/* overflow: hidden; */
+	margin-top: 2em;
+}
+
+textarea, input[type="text"], input[type="password"] {
+	/* background-color: inherit; */
+	font-size: 10pt;
+}
+
+.timeelapsed {
+	color: #666;
+	font-size: smaller;
+	margin-left: 0.5em;
+}
+
+.userinput {
+	background-color: #ffffcc;
+	color: #003377;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#toplistsarea {
+	/*margin: 1em auto;*/
+	margin: 1em;
+	overflow: hidden;
+	width: 34em;
+}
+
+#topusersarea, #topauthorsarea {
+	margin-bottom: 2em;
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+
+#whatsnew li {
+	margin-bottom: 1em;
+}
+
+.widener {
+	width: 18em;
+	height: 1px;
+}
+
+
+
+
+a {
+	/* color: #a40; */
+	color: #557;
+}
+
+a:hover {
+	/* background-color: #FFFF99 !important; */
+	text-decoration: underline;
+}
+
+a img {
+	border-width: 0;
+}
+
+.announcements > li {
+	padding-bottom: 1em;
+}
+
+.announcements > li > ul > li {
+	padding-bottom: 0.5em;
+}
+
+.announcements > li > ul > li > p {
+	margin-top: 0em;
+}
+
+.aside {
+	font-size: small;
+}
+
+.assignmentarea {
+	border: thin solid gray;
+	margin: 1em;
+	padding: 0.5em;
+}
+
+.backlink {
+	font-size: small;
+}
+
+.biglist {
+	font-size: small;
+}
+
+body {
+	background-color: #ffffff;
+	color: #000000;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida", "Helvetica Neue", "Helvetica", Verdana, Arial, sans-serif;
+	font-size: 10pt;
+	margin: 1.5em;
+	margin-top: 2em;
+}
+
+.centerpane {
+	margin-right: 240px;
+	padding-left: 1em;
+}
+
+.closedipl {
+	background-color: #666666;
+}
+
+.contactlist li {
+	margin-bottom: 0.5em;
+}
+
+#cselogo {
+	float: left;
+}
+
+dd {
+	margin-bottom: 1em;
+}
+
+dd, dt {
+	margin-left: 1.5em;
+	text-indent: -1.5em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+.emphasized {
+	font-weight: bold;
+}
+
+.error, .errorfixed, .compilererrors, .warning {
+	background-color: #FFFFDD;
+	border: thin solid gray;
+	font-weight: bold;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	padding-right: 1em;
+}
+
+.error {
+	color: #cc0000;
+}
+
+p.error {
+	padding-left: 0.5em;
+}
+
+.errorfixed {
+	color: #000099;
+}
+
+.filename {
+	text-decoration: none;
+}
+
+.filelist {
+	list-style-type: none;
+}
+
+.finalday {
+	color: #bb0000;
+}
+
+.first {
+	margin-top: 0em !important;
+}
+
+.gradestable {
+	border-collapse: collapse;
+}
+
+.gradestable td, .gradestable th {
+	border: 1px solid gray;
+	padding: 4px;
+	white-space: nowrap;
+}
+
+.groupbyname {
+	width: 12em;
+}
+
+h2 {
+	margin-bottom: 0em;
+}
+
+h2.problemtitle {
+	/*padding-left: 2em;*/
+}
+
+.highlight {
+	background-color: #eeee44 !important;
+	border: thin dashed #ff4;
+}
+
+.holiday {
+	color: #bbbbbb;
+}
+
+#homework_files h3 {
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+}
+
+#homework_files h4 {
+	margin-top: 0em;
+}
+
+#homework_files td {
+	padding-bottom: 0.5em;
+}
+
+#homework_files > ul.filefolder {
+	border: thin solid #CCCCCC;
+	padding-bottom: 1em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+/*
+img {
+	vertical-align: bottom;
+}
+*/
+
+img.icon {
+	height: 16px;
+	width: 16px;
+	vertical-align: baseline;
+}
+
+img.imageicon, img.sidebaricon {
+	border: none;
+	height: 16px;
+	width: 16px;
+	vertical-align: middle;
+}
+
+img.stafficon {
+	border: none;
+	height: 48px;
+	width: 48px;
+}
+
+.lectureday {
+	color: #dd00dd;
+}
+
+.leftcolumn {
+	padding-right: 20px;
+	text-align: left;
+	vertical-align: top;
+	width: 150px;
+}
+
+li.filefolder {
+	/*
+	padding-top: 6px;
+	padding-bottom; 6px;
+	*/
+	line-height: 1.5em;
+}
+
+li.filefolder table {
+	border-bottom: 1px solid gray;
+	margin-bottom: 1em;
+}
+
+li.folder {
+	list-style-type: none;
+	margin-top: 1em;
+}
+
+li.folder p {
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 0.5em;
+	/*	margin-left: */
+	line-height: 1.2em;
+}
+
+#mainoptions,
+.mainoptions {
+	clear: both;
+	list-style-type: none;
+	margin-bottom: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	
+	margin-top: 1em;
+	padding-top: 1em;
+}
+
+#mainoptions td,
+.mainoptions td {
+	text-align: center;
+}
+
+#mainoptions a,
+.mainoptions a {
+	background-color: #CCC;
+	border: 2px solid gray;
+	border-left: 2px solid #DDD;
+	border-top: 2px solid #DDD;
+	color: #446;
+	display: inline-block;
+	font-size: 11pt;
+	font-weight: normal;
+	margin-right: 0.25em;
+	margin-bottom: 0.25em;
+	min-width: 5em;
+	padding: 0.25em 0.5em;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+#mainoptions a:hover,
+.mainoptions a:hover {
+	background-color: #DDD !important;
+}
+
+#mainoptions a:hover span,
+.mainoptions a:hover span {
+	/*text-decoration: underline !important;*/
+}
+	
+#mainoptions img,
+#mainoptions a img,
+#mainoptions a:hover img,
+.mainoptions img,
+.mainoptions a img,
+.mainoptions a:hover img,
+img.iconlarge {
+	height: 32px;
+	text-decoration: none !important;
+	width: 32px;
+}
+
+.methodlist li {
+	margin-bottom: 0.5em;
+}
+
+#nextlink,
+#previouslink,
+.nextlink,
+.previouslink {
+	background-color: #eeeeee;
+	border: thin solid #cccccc;
+	font-size: 12pt;
+	line-height: 1em;
+	margin: 0em;
+	padding: 0.25em 0.5em;
+	text-decoration: none !important;
+}
+
+#nextlink.nonmobile,
+#previouslink.nonmobile,
+.nextlink.nonmobile,
+.previouslink.nonmobile {
+	position: absolute;
+	top: 0em;
+}
+
+.nextlink2.nonmobile,
+.previouslink2.nonmobile {
+	top: 1.5em !important;
+}
+
+#nextlink.nonmobile,
+.nextlink.nonmobile {
+	right: 0em;
+}
+
+#nextlink,
+.nextlink {
+	-moz-border-radius: 0px 0px 0px 10px;
+	-webkit-border-radius: 0px 0px 0px 10px;
+	border-radius: 0px 0px 0px 10px;
+}
+
+#previouslink.nonmobile,
+.previouslink.nonmobile {
+	left: 0em;
+}
+
+#previouslink,
+.previouslink {
+	-moz-border-radius: 0px 0px 10px 0px;
+	-webkit-border-radius: 0px 0px 10px 0px;
+	border-radius: 0px 0px 10px 0px;
+}
+
+/*
+ol {
+	padding-left: 1em;
+}
+
+ol li {
+	margin-bottom: 1em;
+}
+
+ol li div {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+*/
+
+.overalllayoutaligntext {
+	text-align: center;
+}
+
+.overalllayoutalignblock {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#mainbodyarea, .flash {
+	min-width: 15em;
+	max-width: 64em;
+}
+
+p.filefolder {
+	padding: 0px;
+	margin: 6px 0px;
+}
+
+.pageheader {
+	font-size: large;
+	font-weight: bold;
+}
+
+#practiceitgooglead {
+	width: 728px;
+	height: 90px;
+	/*margin: auto;*/
+	margin-top: 2em;
+}
+
+.prefilelist {
+	margin-bottom: 2em;
+}
+
+.problemsolvedcell {
+	/*text-align: center;*/
+}
+
+.questiontooltip {
+	color: #666;
+}
+
+.quote {
+	font-style: italic;
+}
+
+#relatedfiles {
+	margin-top: 2em;
+}
+
+#relatedfiles h3 {
+	margin-bottom: 0em;
+}
+
+#relatedfiles ul {
+	margin-top: 0.25em;
+}
+
+#revertarea {
+	margin-bottom: 1em;
+	text-align: right;
+}
+
+.section_a {
+	color: #990000;
+}
+
+.section_b {
+	color: #000099;
+}
+
+.separated {
+	padding-bottom: 2em;
+}
+
+.separatedtop {
+	padding-top: 2em;
+}
+
+#showhintslink {
+	margin-left: 1.5em;
+}
+
+.sidebar {
+	background-color: white;
+	border: 3px solid gray;
+	float: right;
+	font-weight: bold;
+	padding: 10px;
+	position: fixed;
+	_position: absolute;	/* for shitty IE6 */
+	right: 10px;
+	top: 10px;
+	max-width: 210px;
+}
+
+.sidebar h2 {
+	font-size: 110%;
+	margin-bottom: 0em;
+	margin-top: 1em;
+}
+
+.sidebar ul {
+	list-style-type: none;
+	margin: 0em;
+	padding: 0em;
+}
+
+.sidebar li {
+	margin-bottom: 0em;
+	margin-top: 0em;
+}
+
+.solvedproblem a.problemlink, h4.solvedproblem a {
+	color: #669066;
+}
+
+.solvedproblemcheat a.problemlink, h4.solvedproblemcheat a {
+	color: #a0a066;
+}
+
+.solvedproblemli .solvedproblemstatus {
+	clear: right;
+	float: right;
+	margin-left: 1em;
+	margin-right: 1.5em;
+}
+
+#solvedstatus {
+	vertical-align: middle;
+}
+
+#solvedstatusarea {
+	margin-top: 0.5em;
+}
+
+.staff {
+	
+}
+
+.studententry {
+	border-bottom: 2px solid #bbbbbb;
+}
+
+.subheading {
+	/* font-style: italic; */
+}
+
+.success {
+	color: #005C00;
+	background-color: #DDFFDD;
+	border: thin solid gray;
+	font-weight: bold;
+}
+
+.surveyresults {
+	padding-left: 4em;
+}
+
+table {
+	border-collapse: collapse;
+	border-width: 0px;
+	color: #000000;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+table.calendar {
+	border-collapse: collapse;
+	font-size: smaller;
+}
+
+table.calendar td {
+	border: thin solid gray;
+	padding-left: 10px;
+	padding-right: 10px;
+	vertical-align: top;
+}
+
+table.calendar th {
+	/*
+	width: 30%;
+	*/
+}
+
+table.calendar th.week {
+	width: 10%;
+}
+
+table.calltable {
+	margin-bottom: 0.5em;
+}
+
+table.calltable th a img {
+	vertical-align: middle;
+}
+
+table.calltable pre {
+	margin: 0em;
+}
+
+table.calltable td, table.calltable th {
+	border: 1px solid gray;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+table.calltable td code, table.calltable th code {
+	white-space: nowrap;
+}
+
+table.calltablewide {
+	width: 100%;
+}
+
+table.highlightrowonhover tr:hover {
+	background-color: #eeeecc !important;
+}
+
+table.homeworktable th {
+	text-align: left;
+	padding-right: 1em;
+	white-space: nowrap;
+}
+
+table.homeworktable td ul {
+	list-style-type: none;
+	margin: 0em;
+	padding-left: 0em;
+}
+
+table.labhourstable {
+	border: thin solid black;
+	border-collapse: collapse;
+	padding: 2px;
+	margin: 2px;
+	width: 100%;
+}
+
+table.labhourstable td, table.labhourstable th {
+	font-size: 80%;
+	margin: 2px;
+	padding: 2px;
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+	/*text-align: center;*/
+	white-space: nowrap;
+	width: 12%;
+}
+
+table.labhourstable th {
+	background-color: #ccffcc;
+}
+
+
+table.stafftable {
+	border: none;
+	border-collapse: collapse;
+	margin-top: 30px;
+}
+
+table.stafftable td, table.stafftable th {
+	font-size: 90%;
+	padding-right: 0.5em;
+	vertical-align: middle;
+}
+
+#resizearea {
+	text-align: right;
+}
+
+#startpracticing {
+	font-size: 3em;
+	/*text-align: center;*/
+}
+
+.statuslabel {
+	float: left;
+	font-weight: bold;
+	margin-right: 1em;
+	width: 7em;
+}
+
+#tallshortarea {
+	margin-left: 2pt;
+}
+
+#tallshortarea .buttonlink {
+	display: block;
+}
+
+#taller, #shorter {
+	font-size: 10pt;
+}
+
+#taller img, #shorter img {
+	vertical-align: baseline;
+}
+
+td, th {
+	vertical-align: top;
+}
+
+td.calendar ul {
+	/*
+	white-space: nowrap;
+	*/
+}
+
+td.extra, th.extra {
+	border: none !important;
+	opacity: 0.5;
+}
+
+td.spaced, th.spaced {
+	padding-right: 20px;
+}
+
+.topspaced td, .topspaced th {
+	padding-top: 2em;
+}
+
+#timedquizarea {
+	background-color: #ffffee;
+	border: thin dotted #cccc88;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+max-width: 30em;
+	padding: 6pt 6pt;
+	position: absolute;
+	left: 0.5em;
+	top: 3em; 
+}
+
+#timedquizarea h3, #timedquizarea h4 {
+	margin: 0.25em 0 0.25em 0;
+}
+
+.timedquizitem {
+	padding-bottom: 0.75em;
+}
+
+.timedquizlink {
+	/* float: right; */
+	font-size: 1em;
+	font-weight: normal;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	padding-bottom: 0em !important;
+	padding-top: 0em !important;
+}
+
+.timedquizresultsarea {
+	margin-left: 12em;
+	margin-right: 12em;
+}
+
+.timedquiztakeitem {
+	float: right;
+}
+
+#timedquizturninform {
+	/*text-align: center;*/
+}
+
+#timedquizproblemsarea ul, #timedquizresultsproblemsarea ul {
+	list-style-type: none;
+	line-height: 1.5em;
+	margin: 0 0 0.75em 0;
+	padding-left: 0.75em; 
+}
+
+#timedquizresultsproblemsarea ul {
+	padding-left: 0em;
+}
+
+#timedquizresultsproblemsarea li a {
+	text-decoration: none;
+}
+
+.timedquizsetup {
+	background-color: #F9F9F9;
+	border: 1px solid #D8D8D8;
+	font-size: 90%;
+	margin-right: 1em;
+	padding: 1em;
+}
+
+.timedquizsetup a {
+	float: right;
+	font-size: 1em;
+}
+
+.timedquizsetup h5 {
+	font-size: 100%;
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+}
+
+.timeremaining {
+	padding-left: 0.75em;
+}
+
+#timetakenarea div {
+	clear: left;
+	overflow: hidden;
+}
+
+#timetocomplete {
+	height: 0px;
+	visibility: hidden; 
+}
+
+.titlebar {
+	background-color: #666600;
+	color: #ffffff;
+}
+
+.titlebar a {
+	background: url(images/wharrow.gif) left middle no-repeat;
+	color: #ffffff;
+	padding-left: 2em;
+}
+
+.titlebar a:hover {
+	background-color: #666600;
+	background: url(images/wsarrow.gif) left middle no-repeat;
+	text-decoration: underline;
+}
+
+.titlebar img {
+	vertical-align: baseline;
+}
+
+table.zebrastripe tr:nth-child(even) {
+	background-color: #EEEEEE;
+}
+
+.turninlink {
+	background-color: #EEEEEE;
+	border: 2px solid #CCCCCC;
+	float: right;
+	margin-right: 1em;
+	padding: 0.5em;
+}
+
+ul.filefolder {
+	/*
+	padding-top: 6px;
+	padding-bottom; 6px;
+	*/
+	list-style-type: none;
+	line-height: 1.5em;
+	padding-right: 1em;
+}
+
+ul.filefolder, ul.filefolder p {
+	padding-left: 0em;
+	padding-right: 0em;
+}
+
+ul.folder0 > li.folder {
+	margin-bottom: 50px;
+}
+
+ul.imagelist {
+	list-style-type: none;
+	margin-bottom: 1.5em;
+	padding-left: 1em;
+}
+
+ul.imagelist li {
+	margin-bottom: 1em;
+}
+
+.urgent {
+	color: #990000;
+	font-weight: bold;
+}
+
+#userinfoarea {
+	background-color: #ffffee;
+	border: thin dotted #cccc88;
+	/* float: right; */
+	font-size: inherit;
+	/*margin: 1em auto;*/
+	max-width: 30em;
+	overflow: hidden;
+	padding: 3pt 6pt;
+	position: absolute;
+	z-index: 9999;
+	right: 0.5em;
+	top: 3em;
+}
+
+#userinfoarea #useractionsarea {
+	margin-top: 0.5em;
+}
+
+#userinfoarea #logoutarea {
+	margin-top: 0.5em;
+}
+
+#userinfoarea img {
+	vertical-align: middle;
+}
+
+.userinfotable input[type="text"] {
+	border: none;
+	background-color: transparent;
+}
+
+/*
+.userinfotable {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.userinfotable th {
+	width: 10em;
+}
+
+.userinfotable th, .userinfotable td {
+	padding-left: 5pt;
+	padding-right: 5pt;
+	text-align: left;
+}
+*/
+
+.validationerror {
+	color: red;
+	display: block;
+	margin-left: 0.25em;
+	margin-bottom: 0.5em;
+}
+
+.w3c {
+	position: fixed;
+	_position: absolute;	/* for shitty IE6 */
+	right: 0em;
+	text-align: right;
+	bottom: 0em;
+	width: 200px;
+}
+
+.warning {
+	color: #555500;
+}
+
+/* value is correct but the wrong type (string without "", real without .0) */
+.wrongtype {
+	background-color: #ff9 !important;
+}
+
+
+
+/* "reset stylesheet" to make sure that web programming problems don't use Practice-It styles */
+/*
+.resetstylesheet abbr,
+.resetstylesheet address,
+.resetstylesheet article,
+.resetstylesheet aside,
+.resetstylesheet audio,
+.resetstylesheet b,
+.resetstylesheet blockquote,
+.resetstylesheet body,
+.resetstylesheet canvas,
+.resetstylesheet caption,
+.resetstylesheet cite,
+.resetstylesheet code,
+.resetstylesheet dd,
+.resetstylesheet del,
+.resetstylesheet details,
+.resetstylesheet dfn,
+.resetstylesheet div,
+.resetstylesheet dl,
+.resetstylesheet dt,
+.resetstylesheet em,
+.resetstylesheet fieldset,
+.resetstylesheet figcaption,
+.resetstylesheet figure,
+.resetstylesheet footer,
+.resetstylesheet form,
+.resetstylesheet h1,
+.resetstylesheet h2,
+.resetstylesheet h3,
+.resetstylesheet h4,
+.resetstylesheet h5,
+.resetstylesheet h6,
+.resetstylesheet header,
+.resetstylesheet hgroup,
+.resetstylesheet html,
+.resetstylesheet i,
+.resetstylesheet iframe,
+.resetstylesheet img,
+.resetstylesheet ins,
+.resetstylesheet kbd,
+.resetstylesheet label,
+.resetstylesheet legend,
+.resetstylesheet li,
+.resetstylesheet mark,
+.resetstylesheet menu,
+.resetstylesheet nav,
+.resetstylesheet object,
+.resetstylesheet ol,
+.resetstylesheet p,
+.resetstylesheet pre,
+.resetstylesheet q,
+.resetstylesheet samp,
+.resetstylesheet section,
+.resetstylesheet small,
+.resetstylesheet span,
+.resetstylesheet strong,
+.resetstylesheet sub,
+.resetstylesheet summary,
+.resetstylesheet sup,
+.resetstylesheet table,
+.resetstylesheet tbody,
+.resetstylesheet td,
+.resetstylesheet tfoot,
+.resetstylesheet th,
+.resetstylesheet thead,
+.resetstylesheet time,
+.resetstylesheet tr,
+.resetstylesheet ul,
+.resetstylesheet var,
+.resetstylesheet video,
+#resetstylesheet abbr,
+#resetstylesheet address,
+#resetstylesheet article,
+#resetstylesheet aside,
+#resetstylesheet audio,
+#resetstylesheet b,
+#resetstylesheet blockquote,
+#resetstylesheet body,
+#resetstylesheet canvas,
+#resetstylesheet caption,
+#resetstylesheet cite,
+#resetstylesheet code,
+#resetstylesheet dd,
+#resetstylesheet del,
+#resetstylesheet details,
+#resetstylesheet dfn,
+#resetstylesheet div,
+#resetstylesheet dl,
+#resetstylesheet dt,
+#resetstylesheet em,
+#resetstylesheet fieldset,
+#resetstylesheet figcaption,
+#resetstylesheet figure,
+#resetstylesheet footer,
+#resetstylesheet form,
+#resetstylesheet h1,
+#resetstylesheet h2,
+#resetstylesheet h3,
+#resetstylesheet h4,
+#resetstylesheet h5,
+#resetstylesheet h6,
+#resetstylesheet header,
+#resetstylesheet hgroup,
+#resetstylesheet html,
+#resetstylesheet i,
+#resetstylesheet iframe,
+#resetstylesheet img,
+#resetstylesheet ins,
+#resetstylesheet kbd,
+#resetstylesheet label,
+#resetstylesheet legend,
+#resetstylesheet li,
+#resetstylesheet mark,
+#resetstylesheet menu,
+#resetstylesheet nav,
+#resetstylesheet object,
+#resetstylesheet ol,
+#resetstylesheet p,
+#resetstylesheet pre,
+#resetstylesheet q,
+#resetstylesheet samp,
+#resetstylesheet section,
+#resetstylesheet small,
+#resetstylesheet span,
+#resetstylesheet strong,
+#resetstylesheet sub,
+#resetstylesheet summary,
+#resetstylesheet sup,
+#resetstylesheet table,
+#resetstylesheet tbody,
+#resetstylesheet td,
+#resetstylesheet tfoot,
+#resetstylesheet th,
+#resetstylesheet thead,
+#resetstylesheet time,
+#resetstylesheet tr,
+#resetstylesheet ul,
+#resetstylesheet var,
+#resetstylesheet video
+{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+
+.resetstylesheet body,
+#resetstylesheet body
+{
+	line-height:1;
+}
+
+.resetstylesheet article,
+.resetstylesheet aside,
+.resetstylesheet details,
+.resetstylesheet figcaption,
+.resetstylesheet figure,
+.resetstylesheet footer,
+.resetstylesheet header,
+.resetstylesheet hgroup,
+.resetstylesheet menu,
+.resetstylesheet nav,
+.resetstylesheet section,
+#resetstylesheet article,
+#resetstylesheet aside,
+#resetstylesheet details,
+#resetstylesheet figcaption,
+#resetstylesheet figure,
+#resetstylesheet footer,
+#resetstylesheet header,
+#resetstylesheet hgroup,
+#resetstylesheet menu,
+#resetstylesheet nav,
+#resetstylesheet section
+{ 
+	display:block;
+}
+
+.resetstylesheet nav ul,
+#resetstylesheet nav ul
+{
+	list-style:none;
+}
+
+.resetstylesheet blockquote,
+.resetstylesheet q,
+#resetstylesheet blockquote,
+#resetstylesheet q
+{
+	quotes:none;
+}
+
+.resetstylesheet blockquote:before,
+.resetstylesheet blockquote:after,
+.resetstylesheet q:before,
+.resetstylesheet q:after,
+#resetstylesheet blockquote:before,
+#resetstylesheet blockquote:after,
+#resetstylesheet q:before,
+#resetstylesheet q:after
+{
+	content:'';
+	content:none;
+}
+
+.resetstylesheet a,
+#resetstylesheet a
+{
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+
+.resetstylesheet ins,
+#resetstylesheet ins
+{
+	background-color:#ff9;
+	color:#000;
+	text-decoration:none;
+}
+
+.resetstylesheet mark,
+#resetstylesheet mark
+{
+	background-color:#ff9;
+	color:#000; 
+	font-style:italic;
+	font-weight:bold;
+}
+
+.resetstylesheet del,
+#resetstylesheet del
+{
+	text-decoration: line-through;
+}
+
+.resetstylesheet abbr[title],
+.resetstylesheet dfn[title],
+#resetstylesheet abbr[title],
+#resetstylesheet dfn[title]
+{
+	border-bottom:1px dotted;
+	cursor:help;
+}
+
+.resetstylesheet table,
+#resetstylesheet table
+{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+.resetstylesheet hr,
+#resetstylesheet hr
+{
+	display:block;
+	height:1px;
+	border:0;	 
+	border-top:1px solid #cccccc;
+	margin:1em 0;
+	padding:0;
+}
+
+.resetstylesheet input,
+.resetstylesheet select,
+#resetstylesheet input,
+#resetstylesheet select
+{
+	vertical-align:middle;
+}
+*/
+
+.resetstylesheet th,
+#resetstylesheet th
+{
+	font-weight: bolder;
+	text-align: center;
+}
+
+.resetstylesheet caption,
+#resetstylesheet caption
+{
+	text-align: center;
+}
+
+.resetstylesheet,
+#resetstylesheet,
+.resetstylesheet html,
+#resetstylesheet html,
+.resetstylesheet body,
+#resetstylesheet body
+{
+	font-family: serif;
+	font-size: 1em;
+	font-style: normal;
+	font-weight: normal;
+	margin: 8px;
+}
+
+.resetstylesheet h1,
+#resetstylesheet h1
+{
+	font-size: 2em;
+	margin: .67em 0;
+}
+
+.resetstylesheet h2,
+#resetstylesheet h2
+{
+	font-size: 1.5em;
+	margin: .75em 0;
+}
+
+.resetstylesheet h3,
+#resetstylesheet h3
+{
+	font-size: 1.17em;
+	margin: .83em 0;
+}
+
+.resetstylesheet h4,
+.resetstylesheet p,
+.resetstylesheet blockquote,
+.resetstylesheet ul,
+.resetstylesheet fieldset,
+.resetstylesheet form,
+.resetstylesheet ol,
+.resetstylesheet dl,
+.resetstylesheet dir,
+.resetstylesheet menu,
+#resetstylesheet h4,
+#resetstylesheet p,
+#resetstylesheet blockquote,
+#resetstylesheet ul,
+#resetstylesheet fieldset,
+#resetstylesheet form,
+#resetstylesheet ol,
+#resetstylesheet dl,
+#resetstylesheet dir,
+#resetstylesheet menu
+{
+	margin: 1.12em 0;
+}
+
+.resetstylesheet h5,
+#resetstylesheet h5
+{
+	font-size: .83em;
+	margin: 1.5em 0;
+}
+
+.resetstylesheet h6,
+#resetstylesheet h6
+{
+	font-size: .75em;
+	margin: 1.67em 0;
+}
+
+.resetstylesheet h1,
+.resetstylesheet h2,
+.resetstylesheet h3,
+.resetstylesheet h4,
+.resetstylesheet h5,
+.resetstylesheet h6,
+.resetstylesheet b,
+.resetstylesheet strong,
+#resetstylesheet h1,
+#resetstylesheet h2,
+#resetstylesheet h3,
+#resetstylesheet h4,
+#resetstylesheet h5,
+#resetstylesheet h6,
+#resetstylesheet b,
+#resetstylesheet strong
+{
+	font-weight: bolder;
+}
+
+.resetstylesheet blockquote,
+#resetstylesheet blockquote
+{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.resetstylesheet i,
+.resetstylesheet cite,
+.resetstylesheet em,
+.resetstylesheet var,
+.resetstylesheet address,
+#resetstylesheet i,
+#resetstylesheet cite,
+#resetstylesheet em,
+#resetstylesheet var,
+#resetstylesheet address
+{
+	font-style: italic;
+}
+
+.resetstylesheet pre,
+.resetstylesheet tt,
+.resetstylesheet code,
+.resetstylesheet kbd,
+.resetstylesheet samp,
+#resetstylesheet pre,
+#resetstylesheet tt,
+#resetstylesheet code,
+#resetstylesheet kbd,
+#resetstylesheet samp
+{
+	font-family: monospace;
+}
+
+.resetstylesheet pre,
+#resetstylesheet pre
+{
+	white-space: pre;
+}
+
+.resetstylesheet button,
+.resetstylesheet textarea,
+.resetstylesheet input,
+.resetstylesheet select,
+#resetstylesheet button,
+#resetstylesheet textarea,
+#resetstylesheet input,
+#resetstylesheet select
+{
+	display: inline-block;
+}
+
+.resetstylesheet big,
+#resetstylesheet big
+{
+	font-size: 1.17em;
+}
+
+.resetstylesheet small,
+.resetstylesheet sub,
+.resetstylesheet sup,
+#resetstylesheet small,
+#resetstylesheet sub,
+#resetstylesheet sup
+{
+	font-size: .83em;
+}
+
+.resetstylesheet sub,
+#resetstylesheet sub
+{
+	vertical-align: sub;
+}
+
+.resetstylesheet sup,
+#resetstylesheet sup
+{
+	vertical-align: super;
+}
+
+.resetstylesheet table,
+#resetstylesheet table
+{
+	border-spacing: 2px;
+}
+
+.resetstylesheet thead,
+.resetstylesheet tbody,
+.resetstylesheet tfoot,
+#resetstylesheet thead,
+#resetstylesheet tbody,
+#resetstylesheet tfoot
+{
+	vertical-align: middle;
+}
+
+.resetstylesheet td,
+.resetstylesheet th,
+.resetstylesheet tr,
+#resetstylesheet td,
+#resetstylesheet th,
+#resetstylesheet tr
+{
+	vertical-align: inherit;
+}
+
+.resetstylesheet s,
+.resetstylesheet strike,
+.resetstylesheet del,
+#resetstylesheet s,
+#resetstylesheet strike,
+#resetstylesheet del
+{
+	text-decoration: line-through;
+}
+
+.resetstylesheet hr,
+#resetstylesheet hr
+{
+	border: 1px inset;
+}
+
+.resetstylesheet ol,
+.resetstylesheet ul,
+.resetstylesheet dir,
+.resetstylesheet menu,
+.resetstylesheet dd,
+#resetstylesheet ol,
+#resetstylesheet ul,
+#resetstylesheet dir,
+#resetstylesheet menu,
+#resetstylesheet dd
+{
+	margin-left: 40px;
+	padding-left: 0px;
+}
+
+.resetstylesheet ol,
+#resetstylesheet ol
+{
+	list-style-type: decimal;
+}
+
+.resetstylesheet ol ul,
+.resetstylesheet ul ol,
+.resetstylesheet ul ul,
+.resetstylesheet ol ol,
+#resetstylesheet ol ul,
+#resetstylesheet ul ol,
+#resetstylesheet ul ul,
+#resetstylesheet ol ol
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.resetstylesheet u,
+.resetstylesheet ins,
+#resetstylesheet u,
+#resetstylesheet ins
+{
+	text-decoration: underline;
+}
+
+.resetstylesheet br:before,
+#resetstylesheet br:before
+{
+	content: "\A";
+	white-space: pre-line;
+}
+
+.resetstylesheet center,
+#resetstylesheet center
+{
+	text-align: center;
+}
+
+.resetstylesheet :link,
+.resetstylesheet :visited,
+#resetstylesheet :link,
+#resetstylesheet :visited
+{
+	text-decoration: underline
+}
+
+.resetstylesheet :focus,
+#resetstylesheet :focus
+{
+	outline: thin dotted invert;
+}
+

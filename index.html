@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html ng-app="panel">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HuskyRobotics Homepage">
+    <meta name="keywords" content="HTML, CSS, CSS3, JavaScript, AngularJS">
+    <meta name="author" content="Robby Mitchell">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" text="text/css" href="css/style.css">
+    <title>Husky Robotics</title>
+    <!-- Load Angular JS here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
+  </head>
+  <body ng-controller="navController as navCtrl">
+    <!-- Container for toolbar -->
+    <div class="toolbarContainer">
+      <navigation-bar></navigation-bar>
+    </div>
+    <!-- Main page content below -->
+    <div class="mainContainer">
+      <div ng-show="navCtrl.isActive('HOME')">
+        <div class="contentContainer" style="margin-top: 60px;">
+          <div id="homeImage">Husky Robotics</div>
+        </div>
+        <div class="contentContainer">
+          <h1 id="title">Best darned roboticists in the Pacific Northwest</h1>
+          <div id="twitterContainer">
+            <twitter-feed></twitter-feed>
+          </div>
+          <table id="content">
+            <tr>
+              <td>
+                <slideshow></slideshow>
+              </td>
+              <td id="message" ng-controller="welcomeController as welCtrl">
+                <p>{{welCtrl.message}}</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div ng-show="navCtrl.isActive('ABOUT')">
+        <div class="contentContainer" style="margin-top: 60px;">
+          <h1>This page is currently under construction.</h1>
+        </div>
+      </div>
+      <div ng-show="navCtrl.isActive('TEAM')">
+        <div class="contentContainer" style="margin-top: 60px;">
+          <h1>This page is currently under construction.</h1>
+        </div>
+      </div>
+      <div ng-show="navCtrl.isActive('SPONSORS')">
+        <div class="contentContainer" style="margin-top: 60px;">
+          <h1>This page is currently under construction.</h1>
+        </div>
+      </div>
+      <div ng-show="navCtrl.isActive('MEDIA')">
+        <div class="contentContainer" style="margin-top: 60px;">
+          <h1>This page is currently under construction.</h1>
+        </div>
+      </div>
+    </div>
+    <!-- Container for footer below -->
+    <div class="footerContainer">
+      <my-footer></my-footer>
+    </div>
+    <!-- Scripts -->
+    <script src="js/modules.js"></script>
+    <script src="js/homePage.js"></script>
+    <script src="js/twitterFeed.js"></script>
+    <script>
+      alert("This site is currently under construction. Depending on your screen size, there may be some sizing issues with text fields. There is also a bug with Twitter's widget, resulting in some browsers not being able to display the Twitter feed. For best viewing, use Firefox and make sure the screen size is around 12-13 inches wide.");
+    </script>
+  </body>
+</html>

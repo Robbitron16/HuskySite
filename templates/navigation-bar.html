@@ -1,0 +1,9 @@
+<div class="toolbarText">
+  <img id="icon" src="images/gear.png" onclick="window.location='index.html'"></img>
+  <div class="navButtons">
+    <ul>
+      <li ng-repeat="button in navCtrl.buttons" ng-click="navCtrl.linkClick(button)" class="navButton" data-ng-class="{'active' : navCtrl.isActive(button)}">{{button}}</li>
+    </ul>
+  </div>
+  <icon-manager></icon-manager>
+</div>

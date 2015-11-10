@@ -1,0 +1,159 @@
+/*
+Practice-It styles for mobile devices
+*/
+
+@media only screen and (max-device-width: 800px) {
+	body {
+		/*margin: 0;*/
+		margin-top: 3em;
+		padding: 2px;
+	}
+	
+	.mobileonly {
+		display: inherit;
+	}
+	
+	.breadcrumbs {
+		margin-bottom: 1em;
+	}
+	
+	h1 img {
+		max-width: 90%;
+	}
+	
+	img {
+		max-width: 90%;
+	}
+	
+	#problemsarea, #centralarea, #problemsform, #problemarea, .flash {
+		min-width: 90% !important;
+		max-width: 95% !important;
+		margin: 0 !important;
+		width: 95% !important;
+}
+	
+	#bookimagelink {
+		float: none !important;
+		display: block;
+		min-width: 50%;
+		max-width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 1em;
+	}
+	
+	.helptips {
+		font-size: smaller;
+		margin-left: 0;
+		margin-right: 0;
+		max-width: 90%;
+	}
+	
+	.inputcontainer, .inputcontainer th {
+		width: auto;
+	}
+	
+	.inputcontainer label {
+		float: none;
+		display: block;
+	}
+
+	.inputcontainer > div {
+		margin-left: 0;
+	}
+	
+	#categories h4 {
+		margin-left: 0 !important;
+	}
+	
+	#categories ul {
+		margin-left: 3pt !important;
+		padding-left: 0 !important;
+	}
+	
+	#problemarea {
+		margin-right: 0 !important;
+	}
+	
+	#solution {
+		margin: 0 !important;
+	}
+	
+	#solution,
+	#linenumbers,
+	.linenumbers {
+		font-size: inherit;
+	}
+	
+	#previouslink, #nextlink {
+		display: none;
+	}
+	
+	.previouslink, .nextlink {
+		display: block !important;
+		top: auto;
+		left: auto;
+		right: auto;
+		bottom: auto;
+	}
+	
+	.previouslink {
+		text-align: left;
+		-moz-border-radius: 10px 10px 0px 0px;
+		-webkit-border-radius: 10px 10px 0px 0px;
+		border-radius: 10px 10px 0px 0px;
+	}
+	
+	.nextlink {
+		text-align: right;
+		-moz-border-radius: 0px 0px 10px 10px;
+		-webkit-border-radius: 0px 0px 10px 10px;
+		border-radius: 0px 0px 10px 10px;
+	}
+	
+	#userinfoarea {
+		top: 0;
+		width: 90%;
+		left: 2%;
+	}
+	
+	#userinfoarea #useractionsbesideslogout,
+	#controlsarea,
+	#practiceitgooglead,
+	#showsolutionlink,
+	.nonmobile {
+		display: none !important;
+	}
+	
+	#userinfoarea #userimagearea {
+		display: inline;
+		/*float: left;*/
+	}
+	
+	#userinfoarea #logoutarea {
+		display: inline;
+		float: right;
+	}
+	
+	#userinfoarea #useractionsarea {
+		display: inline;
+	}
+	
+	.statuslabel {
+		width: 6em;
+	}
+	
+	.predescriptionrow {
+		white-space: nowrap;
+	}
+	
+	#testresults td,
+	#testresults th,
+	#testresults tr {
+		display: block;
+	}
+
+	#testresults tr {
+		margin-bottom: 1em;
+	}
+}
