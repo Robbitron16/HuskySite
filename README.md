@@ -1,7 +1,8 @@
 # HuskySite
 ## Description
 #### Current files being used to construct the Husky Robotics website.  Subject to change.
+#### The website is not live yet, but the old website can be found here: http://students.washington.edu/dubotics/
 
-## Live Demo:
-#### http://www.urchuskyrobotics.com
-#### Disclaimer: Website has not been tested thoroughly on all browswers and screen sizes. For best current usage, the screen size should be no more than 13 inches wide and the browser should be Firefox (this is due to a Twitter Feed bug).
+
+### Notes:
+#### Website I am currently constructing is stored in the directories above. Using AngularJS to manage the pages, but otherwise I wrote everything else from scratch.  Due to some styling issues with Twitter's embedded feed, the website is not live yet, but will be soon.
